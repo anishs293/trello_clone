@@ -3,20 +3,12 @@ import "./css/global.css";
 import React from "react";
 import Board from "./components/Board";
 import styled from "styled-components";
-import github from "./img/github.png";
 
 function App() {
   return (
     <Container>
       <Heading>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/tberghuis/trello-board-clone"
-        >
-          <img src={github} alt="Github" />
-        </a>
-        <span>Trello Board Clone</span>
+        <span>Trello Board</span>
       </Heading>
       <Board></Board>
     </Container>

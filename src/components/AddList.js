@@ -62,7 +62,6 @@ export default AddList;
 const Container = styled.div`
   width: 272px;
   flex: 0 0 272px;
-  /* instead of margin right for overflow-x scroll */
   border-right: 8px solid transparent;
   margin-left: 4px;
 `;
@@ -76,7 +75,6 @@ const Wrapper = styled.div`
     props.compose ? "#ebecf0" : "hsla(0, 0%, 100%, 0.24)"};
   color: #fff;
   &:hover {
-    /* alternative to ternary */
     background-color: hsla(0, 0%, 100%, 0.32);
     ${props => props.compose && "background-color: #ebecf0;"}
   }

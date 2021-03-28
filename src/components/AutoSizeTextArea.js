@@ -41,6 +41,7 @@ const AutoSizeTextArea = ({
     }
   };
   return (
+    
     <TextArea
       ref={textAreaRef}
       value={textAreaValue}
@@ -52,6 +53,8 @@ const AutoSizeTextArea = ({
       editMode={editMode}
       placeholder={placeholder}
     ></TextArea>
+
+    
   );
 };
 export default AutoSizeTextArea;
