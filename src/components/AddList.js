@@ -39,7 +39,7 @@ const AddList = () => {
         {compose || (
           <Button onClick={() => setCompose(true)}>
             <span className="trellicons">&#xE901;</span>{" "}
-            <span>Add another list</span>
+            <span> Add  list</span>
           </Button>
         )}
         {compose && (

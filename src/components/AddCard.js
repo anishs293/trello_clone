@@ -10,7 +10,7 @@ const AddCard = ({ listId }) => {
     return (
       <Link onClick={() => setCompose(true)}>
         <span className="trellicons">&#xE901;</span>{" "}
-        <span>Add another card</span>
+        
       </Link>
     );
   }
@@ -33,6 +33,7 @@ const AddCard = ({ listId }) => {
         editMode={true}
         placeholder="Enter a title for this card…"
       ></AutoSizeTextArea>
+      
     </Wrapper>
   );
 };
